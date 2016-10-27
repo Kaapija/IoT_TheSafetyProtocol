@@ -1,0 +1,1 @@
+The safety protocol uses motion sensor to detect motion near chosen door. When that occurs, using Raspberry pi, the safety protocol sends a message via MQTT to target PC. The target PC then hides all windows and sets the volume to 0. This is the part that is put to Raspberry pi to which the motion sensor is connected to.
